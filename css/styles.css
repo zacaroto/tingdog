@@ -1,0 +1,283 @@
+#title {
+  color: white;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: gray;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* title */
+#title .container-fluid{
+  padding: 2% 15% 7%;
+}
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: right;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+/* title image */
+.title-img {
+  width: 25%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+  left: 50%
+}
+
+/* features */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.4rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-text {
+  font-size: 1.2rem;
+  margin: 2px 0
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn-pricing {
+  width: 70%
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  padding: 100px;
+  text-align: center;
+  color: white
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+}
+.copyright-text{
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.footer-icon {
+  padding: 20px 10px
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
+#footer .container-fluid {
+  padding-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    display: none;
+  }
+}
+
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.sm-icon {
+ background-color: #ef8172;
+}
